@@ -1,0 +1,184 @@
+/* SCSS RGB */
+/* SCSS Gradient */
+@font-face {
+  font-family: Montserrat-Light;
+  src: url(../font/Montserrat-Light.ttf);
+}
+
+@font-face {
+  font-family: Montserrat-Medium;
+  src: url(../font/Montserrat-Medium.ttf);
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Montserrat-Light;
+}
+
+button,
+h3 {
+  font-family: Montserrat-Medium;
+}
+
+li a {
+  font-family: Montserrat-Medium;
+}
+
+main {
+  color: #2a2828;
+}
+
+footer {
+  padding: 1.5rem 0;
+}
+
+footer div {
+  text-align: center;
+  font-size: 0.75rem;
+}
+
+/* SCSS RGB */
+/* SCSS Gradient */
+#container {
+  height: 100vh;
+  background-color: #fbfcff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  font-size: 1rem;
+  font-weight: normal;
+  letter-spacing: 1.2px;
+}
+
+main form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+main form img {
+  display: block;
+  margin-bottom: .5rem;
+}
+
+main form h1 {
+  font-weight: 400;
+  margin-bottom: 1rem;
+  font-size: 1.75rem;
+  line-height: 1.2;
+  text-align: center;
+  color: #605856;
+}
+
+main form input,
+main form button {
+  overflow: visible;
+  display: block;
+  width: 100%;
+}
+
+main form input {
+  position: relative;
+  height: auto;
+  padding: 10px;
+  margin-bottom: 1.25rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #605856;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #d0ccd0;
+  border-radius: .25rem;
+}
+
+main form input:hover,
+main form input :active {
+  border: 1px solid #1761a0;
+  -webkit-box-shadow: #1761a0 12px;
+          box-shadow: #1761a0 12px;
+}
+
+main form input:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(23, 97, 160, 0.25);
+          box-shadow: 0 0 0 0.2rem rgba(23, 97, 160, 0.25);
+}
+
+main form input::-webkit-input-placeholder {
+  color: #605856;
+  opacity: 1;
+}
+
+main form input:-ms-input-placeholder {
+  color: #605856;
+  opacity: 1;
+}
+
+main form input::-ms-input-placeholder {
+  color: #605856;
+  opacity: 1;
+}
+
+main form input::placeholder {
+  color: #605856;
+  opacity: 1;
+}
+
+main form button {
+  cursor: pointer;
+  background-color: #4c96d7ff;
+  color: #fbfcff;
+  padding: .5rem 1rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: .3rem;
+  border-style: none;
+  text-align: center;
+  font-weight: 400;
+}
+
+main form button:hover {
+  background-color: #1761a0;
+}
+
+main form button:focus {
+  outline: 0;
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(23, 97, 160, 0.5);
+          box-shadow: 0 0 0 0.2rem rgba(23, 97, 160, 0.5);
+}

@@ -1,0 +1,23 @@
+{
+    "name": "toda/bit-php-sprint3",
+    "description": "BitPHP-Sprint3",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tomas Daugela",
+            "email": "todaprojects@gmail.com"
+        }
+    ],
+    "require": {
+        "doctrine/orm": "^2.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Models\\": "src/models",
+            "Controller\\": "src/controller",
+            "Utils\\": "src/utils",
+            "Views\\": "src/views"
+        }
+    }
+}

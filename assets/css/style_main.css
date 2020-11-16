@@ -1,0 +1,370 @@
+/* SCSS RGB */
+/* SCSS Gradient */
+@font-face {
+  font-family: Montserrat-Light;
+  src: url(../font/Montserrat-Light.ttf);
+}
+
+@font-face {
+  font-family: Montserrat-Medium;
+  src: url(../font/Montserrat-Medium.ttf);
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Montserrat-Light;
+}
+
+button,
+h3 {
+  font-family: Montserrat-Medium;
+}
+
+li a {
+  font-family: Montserrat-Medium;
+}
+
+main {
+  color: #2a2828;
+}
+
+footer {
+  padding: 1.5rem 0;
+}
+
+footer div {
+  text-align: center;
+  font-size: 0.75rem;
+}
+
+/* SCSS RGB */
+/* SCSS Gradient */
+.container,
+.container-2 {
+  background-color: #fbfcff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container-2 {
+  width: 100%;
+  background-color: #605856;
+}
+
+header {
+  width: 100%;
+  background-color: #4c96d7ff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header img {
+  margin: 0.67em;
+}
+
+#wrap,
+#wrap2 {
+  width: 100%;
+  max-width: 1200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#wrap menu,
+#wrap2 menu {
+  margin-left: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#wrap menu ul li,
+#wrap2 menu ul li {
+  display: inline;
+  margin-right: 1rem;
+}
+
+#wrap menu ul li a,
+#wrap2 menu ul li a {
+  color: #fbfcff;
+  text-decoration: none;
+}
+
+#wrap menu ul li a:hover, #wrap menu ul li a:active, #wrap menu ul li a:focus,
+#wrap2 menu ul li a:hover,
+#wrap2 menu ul li a:active,
+#wrap2 menu ul li a:focus {
+  color: #1761a0;
+  text-decoration: underline;
+  -webkit-text-decoration-color: #e78200;
+          text-decoration-color: #e78200;
+}
+
+#wrap form,
+#wrap2 form {
+  padding: 0px;
+}
+
+#wrap button,
+#wrap2 button {
+  padding: 0px;
+  font-size: 1rem;
+}
+
+#wrap2 {
+  background-color: #605856;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#wrap2 span {
+  margin-left: 1rem;
+  display: inline;
+  color: #e78200;
+}
+
+#wrap2 menu {
+  max-width: 1200px;
+}
+
+#wrap2 menu a {
+  color: #2a2828;
+}
+
+#wrap2 menu a:hover {
+  color: #4c96d7ff;
+}
+
+#wrap2 menu .inline {
+  display: inline;
+}
+
+#wrap2 menu .link-button {
+  padding-inline: 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #fbfcff;
+}
+
+#wrap2 menu .link-button:hover, #wrap2 menu .link-button:active, #wrap2 menu .link-button:focus {
+  color: #4c96d7ff;
+  text-decoration: underline;
+  -webkit-text-decoration-color: #e78200;
+          text-decoration-color: #e78200;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+main {
+  width: 100%;
+  max-width: 960px;
+  min-height: calc(100vh - 3.5rem - 8rem);
+  font-size: 1rem;
+  font-weight: normal;
+  letter-spacing: 1.2px;
+  padding: 1.25rem 2rem;
+}
+
+main h1.message {
+  margin-top: 0px;
+  margin-bottom: 1.25rem;
+  font-size: 0.85rem;
+  padding: 0.5rem;
+  text-align: center;
+  background-color: #605856;
+  color: #fbfcff;
+  border-radius: 0.25rem;
+}
+
+main h1.message span {
+  color: #e78200;
+  font-style: italic;
+}
+
+main h1.title {
+  font-size: 1.75rem;
+  margin: 0.25rem 0;
+}
+
+main div.info {
+  margin-bottom: 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #e78200;
+}
+
+main article {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+main div#new_post {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  border-radius: 1.25rem;
+}
+
+main div#new_post:hover {
+  cursor: pointer;
+}
+
+main form.edit_form {
+  min-width: 100%;
+  padding: 0px;
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+form img {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+form h1 {
+  font-weight: 400;
+  margin-bottom: 1rem;
+  font-size: 1.75rem;
+  line-height: 1.2;
+  text-align: center;
+  color: #605856;
+}
+
+form input,
+form button,
+form textarea {
+  overflow: visible;
+  display: block;
+  width: 100%;
+}
+
+form input,
+form textarea {
+  position: relative;
+  height: auto;
+  padding: 10px;
+  margin-bottom: 1.25rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #605856;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #d0ccd0;
+  border-radius: 0.25rem;
+}
+
+form input:hover,
+form input :active,
+form textarea:hover,
+form textarea :active {
+  border: 1px solid #1761a0;
+  -webkit-box-shadow: #1761a0 12px;
+          box-shadow: #1761a0 12px;
+}
+
+form input:focus,
+form textarea:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(23, 97, 160, 0.25);
+          box-shadow: 0 0 0 0.2rem rgba(23, 97, 160, 0.25);
+}
+
+form input::-webkit-input-placeholder,
+form textarea::-webkit-input-placeholder {
+  color: #605856;
+  opacity: 1;
+}
+
+form input:-ms-input-placeholder,
+form textarea:-ms-input-placeholder {
+  color: #605856;
+  opacity: 1;
+}
+
+form input::-ms-input-placeholder,
+form textarea::-ms-input-placeholder {
+  color: #605856;
+  opacity: 1;
+}
+
+form input::placeholder,
+form textarea::placeholder {
+  color: #605856;
+  opacity: 1;
+}
+
+form textarea {
+  min-height: 50vh;
+}
+
+form button {
+  cursor: pointer;
+  background-color: #4c96d7ff;
+  color: #fbfcff;
+  padding: 0.5rem 1rem;
+  line-height: 1.5;
+  border-radius: 0.3rem;
+  border-style: none;
+  text-align: center;
+  font-weight: 400;
+}
+
+form button:hover {
+  background-color: #1761a0;
+}
+
+form button:focus {
+  outline: 0;
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(23, 97, 160, 0.5);
+          box-shadow: 0 0 0 0.2rem rgba(23, 97, 160, 0.5);
+}
+
+form button#delete {
+  margin-top: 16px;
+  background-color: #e78200;
+}
+
+form button#delete:hover {
+  background-color: #b16600;
+}
