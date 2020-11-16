@@ -1,4 +1,4 @@
-# BitPHP-Sprint2
+# BitPHP-Sprint3
 
 ## A minimalist CMS:
   - for publishing blog posts;
