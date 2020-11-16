@@ -27,7 +27,7 @@
     * '/app-directory/' (if url http://localhost/app-directory/)
     * '/php/app-directory/' (if url http://localhost/php/app-directory/)
     */
-    define('ROOT_PATH', '/your-project-directory/');
+    define('ROOT_PATH', '/app-directory/');
 ```
 
 1. 2 set database parameters on `/config/bootstrap.php`
@@ -54,20 +54,19 @@
 
 4) After above mentioned configuration, app can be started by running **_'index.php'_** on app directory.
 
-![image](https://user-images.githubusercontent.com/70706753/99279322-c991fe80-2838-11eb-8dce-e96f0949c39e.png)
-
+> ![image](https://user-images.githubusercontent.com/70706753/99279322-c991fe80-2838-11eb-8dce-e96f0949c39e.png)
 
 5) **Admin interface** can be accessed by adding writing **`admin/`** to the end of URL:
 
-![image](https://user-images.githubusercontent.com/70706753/99280646-3e196d00-283a-11eb-8988-73970c9c9115.png)
+> ![image](https://user-images.githubusercontent.com/70706753/99280646-3e196d00-283a-11eb-8988-73970c9c9115.png)
+> 
+> ![image](https://user-images.githubusercontent.com/70706753/99283084-31e2df00-283d-11eb-93c2-59e3d4f1fe2d.png)
 
-![image](https://user-images.githubusercontent.com/70706753/99280820-70c36580-283a-11eb-90ba-1aac1d1810ad.png)
-
-5.1 access post for an update:
+> 5.1 access post for an update:
 ![image](https://user-images.githubusercontent.com/70706753/99281581-56d65280-283b-11eb-9df9-d73d6b561ffa.png)
 
-5.2 publish a new post:
-![image](https://user-images.githubusercontent.com/70706753/99281889-b46a9f00-283b-11eb-86e9-438b0afa67a6.png)
+> 5.2 publish a new post:
+> ![image](https://user-images.githubusercontent.com/70706753/99281889-b46a9f00-283b-11eb-86e9-438b0afa67a6.png)
 
-5.3 making a logout after blog post managing has been done:
-![image](https://user-images.githubusercontent.com/70706753/99282387-496d9800-283c-11eb-85b3-cc1afdfc30b6.png)
+> 5.3 making a logout after blog post managing has been done:
+> ![image](https://user-images.githubusercontent.com/70706753/99282387-496d9800-283c-11eb-85b3-cc1afdfc30b6.png)
