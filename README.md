@@ -17,7 +17,7 @@
   
 ## Usage
 
-1) Initial configurations on file `/config/bootstrap.php`:
+1) Initial configurations on file **`/config/bootstrap.php`**:
 
 1. 1 set a relative path of app's directory:
 ```php
@@ -30,7 +30,7 @@
     define('ROOT_PATH', '/app-directory/');
 ```
 
-1. 2 set database parameters on `/config/bootstrap.php`
+1. 2 set database parameters:
 ```php
     // database configuration parameters
     $conn = array(
@@ -44,11 +44,11 @@
 ```
 2) App uses PHP Doctrine ORM and it should be installed before using this app:
 
-    2.1  open `command prompt` inside the project directory
+    2.1  open **`command prompt`** inside the project directory.
 
-    2.2 run command: `php composer.phar install` (or `composer install`, if _composer path_ is stored in System variables)
+    2.2 run command: **`php composer.phar install`** (or **`composer install`**, if _composer path_ is stored in System variables).
 
-    2.3 run command: `vendor/bin/doctrine orm:schema-tool:update --force --dump-sql` (on Unix) or - `vendor\bin\doctrine orm:schema-tool:update --force --dump-sql` (on windows)
+    2.3 run command: **`vendor/bin/doctrine orm:schema-tool:update --force --dump-sql`** (on Unix) or - **`vendor\bin\doctrine orm:schema-tool:update --force --dump-sql`** (on windows)
 
 3) Sql database initial data can be imported from the **_'db_data.sql'_** file, located in the **_'/config'_** folder.
 
