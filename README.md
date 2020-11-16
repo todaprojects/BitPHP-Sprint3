@@ -17,15 +17,15 @@
   
 ## Usage
 
-1) Initial configurations on file **`/config/bootstrap.php`**:
+1) Initial configurations on file **'`/config/bootstrap.php`'**:
 
 1. 1 set a relative path of app's directory:
 ```php
     /*
     * relative path of project directory, :
-    * '/' (if url http://localhost/)
-    * '/app-directory/' (if url http://localhost/app-directory/)
-    * '/php/app-directory/' (if url http://localhost/php/app-directory/)
+    * '/' (if URL http://localhost/)
+    * '/app-directory/' (if URL http://localhost/app-directory/)
+    * '/php/app-directory/' (if URL http://localhost/php/app-directory/)
     */
     define('ROOT_PATH', '/app-directory/');
 ```
@@ -38,7 +38,7 @@
         'host'     => 'localhost',  // location of MySQL server
         'dbname'   => 'db_name',    // database name
         'user'     => 'root',       // user name
-        'password' => 'root'        //user password
+        'password' => 'root'        // user password
     );
 
 ```
@@ -46,13 +46,13 @@
 
     2.1  open **`command prompt`** inside the project directory.
 
-    2.2 run command: **`php composer.phar install`** (or **`composer install`**, if _composer path_ is stored in System variables).
+    2.2 run command: **`php composer.phar install`** (or **`composer install`**, if _PHP Composer path_ is stored in System variables).
 
     2.3 run command: **`vendor/bin/doctrine orm:schema-tool:update --force --dump-sql`** (on Unix) or - **`vendor\bin\doctrine orm:schema-tool:update --force --dump-sql`** (on windows)
 
-3) Sql database initial data can be imported from the **_'db_data.sql'_** file, located in the **_'/config'_** folder.
+3) Sql database initial data can be imported from the **'`db_data.sql`'** file, located in the **'`/config`'** folder.
 
-4) After above mentioned configuration, app can be started by running **_'index.php'_** on app directory.
+4) After above mentioned configuration, app can be started by running **'`index.php`'** on app directory.
 
 > ![image](https://user-images.githubusercontent.com/70706753/99279322-c991fe80-2838-11eb-8dce-e96f0949c39e.png)
 
